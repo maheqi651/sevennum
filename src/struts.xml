@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+ <constant name="struts.enable.DynamicMethodInvocation" value="true" />
+    <constant name="struts.devMode" value="true" />
+
+     <package name="default"  extends="struts-default">
+   <!-- 管理员登陆 登出 
+    <action name="adminlogout" class="action.LoginAction"  method="adminlogout">
+		    <result name="error" type="redirect">/login.jsp</result>
+			<result type="redirect">/login.jsp</result>
+	</action>
+    <action name="userlogin" class="action.LoginAction"  method="login">
+		    <result name="errorlogin" >/login.jsp</result>
+		      <result name="yinhang"  type="redirect">/lasys/findshowaply.htmls?type=11</result>
+		      <result name="manager"  type="redirect">/lasys/findcustommanager.htmls</result>
+		    
+			<result type="redirect">/lasys/add_client.jsp</result>
+	</action>
+	 -->
+	 
+	</package>
+	
+	
+	
+     
+</struts>
